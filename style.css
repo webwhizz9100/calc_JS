@@ -1,0 +1,27 @@
+.calc {
+    background: #eee;
+    padding: 1em;
+    max-width: 200px;
+    margin: 0 auto;
+    box-shadow: 0 0 4px #aaa;
+}
+
+.calc-numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color :pink;
+}
+
+.calc-operators {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr)
+
+}
+
+#calc-display {
+   width: 100%;
+   box-sizing: border-box;
+   padding: 1em;
+   margin-bottom: 1em;
+   color: pink;
+}
